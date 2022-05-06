@@ -43,4 +43,5 @@ required to include this exception notice.
 If you wish to use this work under a license other than the CC-BY-4.0 or without the exception, please contact the original author(s).
 
 ## Contributing
-If you want to help improve these lessons, feel free to make a pull request, in the standard way.
+If you want to help improve these lessons, feel free to make a pull request. Listing the changes you made will make 
+your pull request more likely to be accepted (this has nothing to do with the license - it just makes maintainers' lives easier).
