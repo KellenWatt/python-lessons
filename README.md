@@ -4,13 +4,23 @@ Welcome to the wonderful world of Python programming! Whether you've got years o
 to the concept of software, these lessons are designed to give an interactive, comprehensive (enough) introduction to 
 programming in Python.
 
+
 ### What You'll Need
+Each item has a link to a download, which you can use directly or as reference.
+- [Python 3](https://www.python.org/downloads/)
 - [Visual Studio Code](https://code.visualstudio.com/) - This will be your primary editor for these lessons.
 - [Python VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Jupyter VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) 
   - Alternatively, you can use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) for a more feature-complete 
-    experince, though this does complicate the workflow.
+    experience, though this does complicate the workflow.
 - [Draw.io integration VS Code extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) - for easily making flowcharts
+- [pytest framework](https://docs.pytest.org/en/7.1.x/) - used to grade the exercises.
+
+Each of the extensions can be installed directly within VS Code.  
+
+pytest is installed separately, and can be done by opening a terminal (either in VS Code, or using your system's native terminal), and entering the following command, depending on you operating system:
+  - Windows: `py -3 -m pip install pytest`
+  - macOS/Linux: `pip3 install pytest`
 
 ### Getting Started
 
