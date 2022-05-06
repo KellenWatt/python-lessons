@@ -7,8 +7,9 @@ programming in Python.
 ### What You'll Need
 - [Visual Studio Code](https://code.visualstudio.com/) - This will be your primary editor for these lessons.
 - [Python VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
-- [Jupyter VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) - Alternatively, 
-  you can use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/), though this does complicate the workflow.
+- [Jupyter VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) 
+  - Alternatively, you can use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) for a more feature-complete 
+    experince, though this does complicate the workflow.
 - [Draw.io integration VS Code extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) - for easily making flowcharts
 
 ### Getting Started
@@ -38,9 +39,9 @@ can use and distribute these lessons as you see fit, as long as you disclose the
 An exception to this license is implicitly extended to derivative repositories that are strictly intended for solving the exercises 
 contained within. In these instances, and only in these instances, the authors of these changes are not required to disclose changes 
 before they publish the material (for example, to their own fork of this repository on Github). All derivative repositories are 
-required to include this exception notice.
+required to include this exception notice alongside the license.
 
-If you wish to use this work under a license other than the CC-BY-4.0 or without the exception, please contact the original author(s).
+If you wish to use this work under a license other than the CC-BY-4.0 or without the exception, please contact the maintainers.
 
 ## Contributing
 If you want to help improve these lessons, feel free to make a pull request. Listing the changes you made will make 
