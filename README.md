@@ -1,10 +1,11 @@
-# Python Lessons for FRC
+# Python Lessons for FRC™
 
 Welcome to the wonderful world of Python programming! Whether you've got years of experience or you're completely new 
 to the concept of software, these lessons are designed to give an interactive, comprehensive (enough) introduction to 
-programming in Python.
+programming in Python, specifically in the environment of FIRST™ Robotics.
 
 
+## Getting Started
 ### What You'll Need
 Each item has a link to a download, which you can use directly or as reference.
 - [Python 3](https://www.python.org/downloads/)
@@ -22,19 +23,17 @@ pytest is installed separately, and can be done by opening a terminal (either in
   - Windows: `py -3 -m pip install pytest`
   - macOS/Linux: `pip3 install pytest`
 
-### Getting Started
 
 
 ### Caveats
 #### Design Expectations
 These lessons are designed to be done by students on their own time, and as such they are structured more like an 
 interactive textbook, rather than a lesson plan. Additionally, the exercises are designed such that the student 
-is expected to get all the answers correct before moving on, and as such it is laregly incompatible with standard letter-
-grading systems. This is not intended for large-classroom use, but for more of a flipped, one-on-one approach, which 
+is expected to get all the answers correct before moving on, and as such it is laregly incompatible with standard letter-grading systems. This is not intended for large-classroom use, but for more of a flipped, one-on-one approach, which 
 is suited to the extracurricular, mentor-based system that is used by many FRC teams. If you use these lessons for 
-anything other than these design expectations, you're value may vary, and good luck.
+anything outside these design expectations, you're mileage may vary, and good luck.
 
-### Content Expectations
+#### Content Expectations
 The author of these lessons is not an expert in Python, and these should not be considered a thorough exploration of 
 the Python programming language, or any other tools used in these lessons. There are almost certainly going to be 
 inaccurate or incorrect material contained within. In many cases, these are the result of simplification for 
@@ -46,13 +45,20 @@ educational purposes, in order to accomodate all learning levels.
 This repository and all derivative repositories are licensed under the [CC-BY-4.0](./LICENSE.txt) license. This means that you 
 can use and distribute these lessons as you see fit, as long as you disclose the changes you made to them, if any. 
 
-An exception to this license is implicitly extended to derivative repositories that are strictly intended for solving the exercises 
-contained within. In these instances, and only in these instances, the authors of these changes are not required to disclose changes 
-before they publish the material (for example, to their own fork of this repository on Github). All derivative repositories are 
-required to include this exception notice alongside the license.
+--- NOTICE OF EXCEPTION ---<br>
+Changes made to the licensed material solely for the purposes of solving the exercises contained in the material 
+are not subject to Section 3(a)(1)(B) of the CC-BY-4.0. This notice must be included with the material, and is 
+subject to the same reproduction requirements as the license.<br>
+--- END OF NOTICE ---
 
-If you wish to use this work under a license other than the CC-BY-4.0 or without the exception, please contact the maintainers.
+In less formal terms, if you publish the lessons with solutions to the exercises on, for example, Github, you are not 
+required to indicate that you're including the solutions - other changes must still be declared. This is intended 
+primarily so that students that don't have any licensing experience can publish their solutions without violating copyright.
+
 
 ## Contributing
 If you want to help improve these lessons, feel free to make a pull request. Listing the changes you made will make 
 your pull request more likely to be accepted (this has nothing to do with the license - it just makes maintainers' lives easier).
+
+
+This material is ©2022 Kellen Watt
