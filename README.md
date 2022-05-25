@@ -46,7 +46,7 @@ This repository and all derivative repositories are licensed under the [CC-BY-4.
 can use and distribute these lessons as you see fit, as long as you disclose the changes you made to them, if any. 
 
 --- NOTICE OF EXCEPTION ---<br>
-Changes made to the licensed material solely for the purposes of solving the exercises contained in the material 
+Changes made to the licensed material solely for the purposes of solving the exercises contained within 
 are not subject to Section 3(a)(1)(B) of the CC-BY-4.0. This notice must be included with the material, and is 
 subject to the same reproduction requirements as the license.<br>
 --- END OF NOTICE ---
