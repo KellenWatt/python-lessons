@@ -31,7 +31,38 @@ round(3.1415, 2) # returns 3.14
 round(4.2, 10) # return 4.2, since 4.2 has fewer than 10 decimal places.
 ```
 
-## Examples
+#### `format()`
+Putting your own information in a pre-existing string is a really common thing to do when you're making messages. So common,
+in fact, that most (semi-)modern programming languages have some way of making it simpler. Python's version of this is the
+`format` function. 
+
+`format` is really easy to use. Whenever you want to insert something into your string later, like a number that changes 
+between printings, you put a literal `{}` in its place in the string. Then, at the end of the string, you call the `format`
+function, putting that value between the parentheses.
+
+```python
+luck_forcast = "Your lucky number is {}!"
+
+luck_forcast.format(7) # returns "Your lucky number is 7!"
+luck_forcast.format(13) # returns "Your lucky number is 13!"
+```
+
+You can also do this with multiple values. The values given to `format` will be inserted in the order given.
+```python
+countdown = "Launching in {}. {}. {}. Launch!"
+
+countdown.format(3, 2, 1) # returns "Launching in 3. 2. 1. Launch!"
+countdown.format(1, 2, 3) # returns "Launching in 1. 2. 3. Launch!"
+# You can even mix up your data types. Python doesn't care!
+countdwon.format("三", "deux", 1) # returns "Launching in 三. deux. 1. Launch!"
+```
+
+Don't worry too much about the whole dot-between-the-variable-and-function thing. We'll talk more about those in 
+future lessons, mentioning them when we talk about lists, and then covering it in-depth when we start talking about 
+classes. For now, just know that you need to use it this way to make it work. This doesn't affect any of the other 
+functions we've talked about so far.
+
+## Example Cases
 
 Input: 
 ```
