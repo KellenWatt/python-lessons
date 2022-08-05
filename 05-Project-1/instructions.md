@@ -10,7 +10,7 @@ each in order. If there are 8 or more patrons, a 20% tip should be automatically
 Unlike the previous lessons, you will be writing your code in its own file, namely the `calculator.py` file provided. Don't
 change the name of this file, as the grader script relies on it.
 
-Your output messages should match the example provided below exactly. The grader script provided will expect to match 
+Your output messages should match each of the examples provided below exactly. The grader script provided will expect to match 
 those patterns exactly. Assume that both of the values given by the user are valid numbers, but don't assume that the bill 
 amount entered will have exactly two decimal places. Don't worry about making the output have exactly two decimal places - 
 this goes beyond the scope of this project. Don't use prompt messages for the inputs. You can assume they will 
