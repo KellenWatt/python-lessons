@@ -15,21 +15,16 @@ Each item has a link to a download, which you can use directly or as reference.
   - Alternatively, you can use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) for a more feature-complete 
     experience, though this does complicate the workflow.
 - [Draw.io integration VS Code extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) - for easily making flowcharts
-- [pytest framework](https://docs.pytest.org/en/7.1.x/) - used to grade the exercises.
 
 Each of the extensions can be installed directly within VS Code.  
-
-pytest is installed separately, and can be done by opening a terminal (either in VS Code, or using your system's native terminal), and entering the following command, depending on you operating system:
-  - Windows: `py -3 -m pip install pytest`
-  - macOS/Linux: `pip3 install pytest`
-
 
 
 ### Caveats
 #### Design Expectations
 These lessons are designed to be done by students on their own time, and as such they are structured more like an 
 interactive textbook, rather than a lesson plan. Additionally, the exercises are designed such that the student 
-is expected to get all the answers correct before moving on, and as such it is laregly incompatible with standard letter-grading systems. This is not intended for large-classroom use, but for more of a flipped, one-on-one approach, which 
+is expected to get all the answers correct before moving on, and as such it is largely incompatible with standard 
+letter-grading systems. This is not intended for large-classroom use, but for more of a flipped, one-on-one approach, which 
 is suited to the extracurricular, mentor-based system that is used by many FRC teams. If you use these lessons for 
 anything outside these design expectations, you're mileage may vary, and good luck.
 
@@ -37,7 +32,7 @@ anything outside these design expectations, you're mileage may vary, and good lu
 The author of these lessons is not an expert in Python, and these should not be considered a thorough exploration of 
 the Python programming language, or any other tools used in these lessons. There are almost certainly going to be 
 inaccurate or incorrect material contained within. In many cases, these are the result of simplification for 
-educational purposes, in order to accomodate all learning levels.
+educational purposes, in order to accommodate all learning levels.
 
 
 
