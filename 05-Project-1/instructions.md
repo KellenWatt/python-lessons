@@ -1,20 +1,25 @@
 # Project 1 - Tip Calculator
 
 Good job making it this far! So far, if you've been doing these lessons in order, we've covered the basics of Python itself, 
-as well as data types, variables, and basic logic. Now's the time to put these into practice. 
+as well as data types, variables, and basic logic. Now's the time to put these into practice. Story time!
 
-Your mission, should you choose to accept it, it to make a tip calculator. Your job is to prompt the user for the cost 
-of the meal, and the number of patrons. You'll take the cost, then suggest the tip values for 15%, 20%, and 25%, listing 
-each in order. If there are 8 or more patrons, a 20% tip should be automatically included, with a message saying as much.
+Recently, a local restaurant owner reached out to you, since they heard you're an up-and-coming programmer, and they want 
+to try and start automating parts of their business. That said, they haven't worked with you before, so you've agreed to 
+start out with something small: a tip calculator. Your client figures that if people are presented with tip amounts, 
+they'll be more willing to pay decent tips.
+
+Your job is to take the cost of the meal, and the number of customers. You'll suggest tip values for 15%, 20%, and 25%, in 
+order. If there are 8 or more customers on a single bill, a 20% tip will be automatically added, with a message saying as much.
+
 
 Unlike the previous lessons, you will be writing your code in its own file, namely the `calculator.py` file provided. Don't
 change the name of this file, as the grader script relies on it.
 
-Your output messages should match each of the examples provided below exactly. The grader script provided will expect to match 
-those patterns exactly. Assume that both of the values given by the user are valid numbers, but don't assume that the bill 
-amount entered will have exactly two decimal places. Don't worry about making the output have exactly two decimal places - 
-this goes beyond the scope of this project. Don't use prompt messages for the inputs. You can assume they will 
-be entered as expected.
+Your output messages should match the format of each of the examples provided below exactly. The grader script provided will 
+expect to match those patterns exactly. Assume that both of the values given by the user are valid numbers, but don't assume 
+that the bill amount entered will have exactly two decimal places. Don't worry about making the output have exactly two 
+decimal places - this goes beyond the scope of this project. Don't use prompt messages for the inputs. You can assume they 
+will be entered as expected.
 
 ### New Concepts
 #### `round()`
@@ -41,10 +46,10 @@ between printings, you put a literal `{}` in its place in the string. Then, at t
 function, putting that value between the parentheses.
 
 ```python
-luck_forcast = "Your lucky number is {}!"
+luck_forecast = "Your lucky number is {}!"
 
-luck_forcast.format(7) # returns "Your lucky number is 7!"
-luck_forcast.format(13) # returns "Your lucky number is 13!"
+luck_forecast.format(7) # returns "Your lucky number is 7!"
+luck_forecast.format(13) # returns "Your lucky number is 13!"
 ```
 
 You can also do this with multiple values. The values given to `format` will be inserted in the order given.
@@ -54,7 +59,7 @@ countdown = "Launching in {}. {}. {}. Launch!"
 countdown.format(3, 2, 1) # returns "Launching in 3. 2. 1. Launch!"
 countdown.format(1, 2, 3) # returns "Launching in 1. 2. 3. Launch!"
 # You can even mix up your data types. Python doesn't care!
-countdwon.format("三", "deux", 1) # returns "Launching in 三. deux. 1. Launch!"
+countdown.format("三", "deux", 1) # returns "Launching in 三. deux. 1. Launch!"
 ```
 
 Don't worry too much about the whole dot-between-the-variable-and-function thing. We'll talk more about those in 
