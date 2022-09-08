@@ -5,17 +5,18 @@ you absolutely *need* to know in order to write almost any program. But we won't
 as an operating system... yet. We've still got a few more things to cover that will make your life easier. But 
 enough of this - back to the restaurant!
 
-Our last little venture into automating our restaurant was a huge success! People are loving how easy it is to 
-figure out what their tip is. Now your boss wants you to create a system to make an inventory management system. 
-They say it'll make everything more efficient, but you think it probably has something to do with the fact the 
-person who usually handles it has terrible handwriting. Either way, it's a net benefit, so it's time to get to work!
+Our last little venture into automating our client's restaurant was a huge success! People are loving how easy 
+it is to figure out what their tip is, and tip amounts are higher than ever. Now your client wants you to create an 
+inventory management system. They say it'll make everything more efficient, but you think it probably has something 
+to do with the fact their employees have terrible handwriting. Either way, it's a net benefit, so it's time to get 
+to work!
 
 Your task is to write a series of functions that will manage the restaurant's inventory. These functions will be:
-- `use_item(inventory, item, count)` - subtract an item from inventory, if it exists and there is enough
-- `stock_item(inventory, item, count)` - add an item to inventory, even if it hasn't been ordered before
+- `use_item(inventory, item, count)` - subtract an item from inventory, if it exists and there is enough. 
+- `stock_item(inventory, item, count)` - add an item to inventory, even if it hasn't been ordered before. 
 - `item_amount(inventory, item)` - return the current amount of the item
 - `is_stocked(inventory, name)` - return a boolean indicating if the item is in stock or not
-- `has_enough(inventory, name, count)` - return a boolean indicating if there are at least `count` of the item
+- `has_enough(inventory, name, count)` - return a boolean indicating if there are at least `count` of the item.
 - `in_history(inventory, name)` - return a boolean indicating if the item has ever been stocked
 - `current_inventory(inventory)` - returns a list of the items that are currently in stock, regardless of amount
 - `report(inventory)` - returns a string that lists the complete inventory, including amounts, with each item on its own line.
@@ -23,7 +24,7 @@ Your task is to write a series of functions that will manage the restaurant's in
 In each case, `inventory` is a dictionary that contains the restaurant's inventory. You don't need to worry about 
 how you get it; you just have it. `name` will always be a string that is the name of the item relevant to 
 that function. Inputs for `name` may or may not exist in `inventory` already, so you'll have to handle this. 
-`count` is an integer indicating the relevant amount of the specific item. You can assume all counts will be non-negative, 
+`count` is an integer indicating the relevant amount of the specific item. You can assume all counts will be positive, 
 but don't assume the input is automatically valid for the given inventory.
 
 You'll be modifying the `manager.py` file. Don't mess with any of the other files, since they're how they 
@@ -131,6 +132,8 @@ current_inventory(inventory)
 ```python
 report(inventory)
 # returns "banana: 46\nkiwifruit: 243\nred bell pepper: 8\neggs: 89\ngarlic: 0\ndragonfruit: 20\n"
-# each "\n" is the escape sequence for newline. When printed, it should put a newline, 
-# not literally print "\n"
+# (not necessarily in that order)
+# Each "\n" is the escape sequence for newline. When printed, it should put a newline, 
+# not literally print "\n". The final newline is optional. 
+# Do not actually print the string, just return it.
 ```
