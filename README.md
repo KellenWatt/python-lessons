@@ -18,6 +18,43 @@ Each item has a link to a download, which you can use directly or as reference.
 
 Each of the extensions can be installed directly within VS Code.  
 
+### Getting the Lessons
+You can get the lessons by first forking the repository on Github. If you're on the main repository page (which you probably
+are if you're reading this) and you're logged in to Github, then you can go up to the "Fork" button in the upper right corner.
+Click that, and you'll have your own copy of the lessons. You can then use your method of choice to download the files locally.
+
+#### Downloading via `git` with Visual Studio Code (Recommended)
+On the main GitHub repository page (likely the page you're on right now), click on the green "Code" button. On the 
+dropdown that appears, click on the "HTTPS" tab, then copy the URL that appears under the tab (you can click the copy button 
+immediately to the right). 
+
+Open a new VS Code window, making sure there isn't any project open. In the "Explorer" tab on the right, click the "Clone 
+Repository" button, then paste the URL you copied into the popup that appears, then press Enter. Pick a location for the 
+repository (on Windows, somewhere under "My Documents" is recommended, particularly in a dedicated Python folder)
+
+#### Downloading via `zip`
+On the main GitHub repository page (likely the page you're on right now), click on the green "Code" button. On the 
+dropdown that appears, click the "Download ZIP" button, then place in a location of your choice (on Windows, somewhere 
+under "My Documents" is recommended, especially for this approach).
+
+### Using the Lessons
+These instructions assume you'll be using VS Code, so you'll need to adjust your approach if that's not what you're using. 
+However, the VS Code approach is strongly encouraged, especially if you're newer to programming.
+
+Once you've opened the lessons, you'll can open a specific lesson by double-clicking on the file that pops up. Each lesson is 
+prefixed by a number, so they should be in vertical order, except the projects, which are ordered differently because they're 
+folders. Specifically, the lessons are in the "ipynb" files.
+
+Once you open a lesson, you can start reading. Any time you get to a section with code that looks like it's in a specially 
+highlighted box, you can press the "Run" button that appears to the left of the box (the triangle pointing right). This will 
+run the code in the box, including any changes you may have made. Additionally, these sections are editable, so you can 
+rewrite the code way way you wish. The same goes for any normal text. That just requires a double-click, and is how you do 
+written exercises (as opposed to programming exercises).
+
+Some later lessons have code that grades the programming exercises, specifically in pass/fail fashion. These are code cells,
+just like any other, and can be run using the "Run" button. It's strongly encouraged to not change these, as that can change 
+the ability to grade that exercise. However, there are techniques used in these graders that aren't taught in the lessons, 
+so they could be useful learning references in and of themselves.
 
 ### Caveats
 #### Design Expectations
