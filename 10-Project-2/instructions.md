@@ -12,9 +12,9 @@ to do with the fact their employees have terrible handwriting. Either way, it's 
 to work!
 
 Your task is to write a series of functions that will manage the restaurant's inventory. These functions will be:
-- `use_item(inventory, item, count)` - subtract an item from inventory, if it exists and there is enough. 
-- `stock_item(inventory, item, count)` - add an item to inventory, even if it hasn't been ordered before. 
-- `item_amount(inventory, item)` - return the current amount of the item
+- `use_item(inventory, name, count)` - subtract an item from inventory, if it exists and there is enough. 
+- `stock_item(inventory, name, count)` - add an item to inventory, even if it hasn't been ordered before. 
+- `item_amount(inventory, name)` - return the current amount of the item
 - `is_stocked(inventory, name)` - return a boolean indicating if the item is in stock or not
 - `has_enough(inventory, name, count)` - return a boolean indicating if there are at least `count` of the item.
 - `in_history(inventory, name)` - return a boolean indicating if the item has ever been stocked
