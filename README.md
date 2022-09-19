@@ -76,7 +76,8 @@ educational purposes, in order to accommodate all learning levels.
 
 ## License
 This repository and all derivative repositories are licensed under the [CC-BY-4.0](./LICENSE.txt) license. This means that you 
-can use and distribute these lessons as you see fit, as long as you disclose the changes you made to them, if any. 
+can use and distribute these lessons as you see fit, as long as you disclose the changes you made to them, if any, and keep 
+the license with it.
 
 --- NOTICE OF EXCEPTION ---<br>
 Changes made to the licensed material solely for the purposes of solving the exercises contained within 
