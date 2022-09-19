@@ -52,7 +52,7 @@ indicating the current balance.
 The POS system will manage the other two systems, as well as customer 
 orders. You will make a class `POS` with the following methods.
 - `take_customer_order(dish)` - if inventory is available, and dish is on menu, subtract the inventory, according 
-to the recipe, and add the profit to the finance manager. Returns `True` on success, `False` otherwise.
+to the ingredients, and add the profit to the finance manager. Returns `True` on success, `False` otherwise.
 - `place_restock_order(items)` - add items to inventory, if there is enough money to pay for it, according to the 
 finance manager. If an item is not in the catalogue, skip over it. Do nothing if there are not enough funds. 
 Prices are gotten from the inventory order form. Returns `False` if the order fails completely, `True` otherwise.
