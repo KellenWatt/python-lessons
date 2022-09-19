@@ -14,7 +14,7 @@ Each item has a link to a download, which you can use directly or as reference.
 - [Jupyter VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) 
   - Alternatively, you can use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) for a more feature-complete 
     experience, though this does complicate the workflow.
-- [Draw.io integration VS Code extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) - for easily making flowcharts
+<!-- - [Draw.io integration VS Code extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) - for easily making flowcharts -->
 
 Each of the extensions can be installed directly within VS Code.  
 
