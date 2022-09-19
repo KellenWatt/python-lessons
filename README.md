@@ -12,6 +12,7 @@ Each item has a link to a download, which you can use directly or as reference.
 - [Visual Studio Code](https://code.visualstudio.com/) - This will be your primary editor for these lessons.
 - [Python VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-python.python)
 - [Jupyter VS Code extension](https://marketplace.visualstudio.com/items?itemName=ms-toolsai.jupyter) 
+  - This should be automatically installed with the Python extension
   - Alternatively, you can use [JupyterLab](https://jupyterlab.readthedocs.io/en/stable/) for a more feature-complete 
     experience, though this does complicate the workflow.
 <!-- - [Draw.io integration VS Code extension](https://marketplace.visualstudio.com/items?itemName=hediet.vscode-drawio) - for easily making flowcharts -->
