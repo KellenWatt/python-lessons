@@ -95,4 +95,4 @@ If you want to help improve these lessons, feel free to make a pull request. Lis
 your pull request more likely to be accepted (this has nothing to do with the license - it just makes maintainers' lives easier).
 
 
-This material is ©2022 Kellen Watt
+[Original material](https://github.com/KellenWatt/python-lessons) is ©2022 Kellen Watt
