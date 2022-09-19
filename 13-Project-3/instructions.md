@@ -9,12 +9,12 @@ you took longer - being right is better than being quick), this project is desig
 give you a taste of what programming looks and feels like in the real world. Don't expect to do everything 
 required in a single sitting. With that out of the way, story time!
 
-It seems like your inventory manager was a runaway hit! Not long after your client started using it, they came 
-to you with a big request: they want you to write software to manage their entire restaurant. You, really 
-wanting to get back to the series you've been watching, suggest that they should invest in a POS system, since 
-they already do that. But no, your client is insistent that you be the one to design it. They say that POS 
-systems don't do enough, but you think they just don't want to pay for someone else's software. You decide to 
-take it as a complement either way, and accept the job. 
+> It seems like your inventory manager was a runaway hit! Not long after your client started using it, they came 
+> to you with a big request: they want you to write software to manage their entire restaurant. You, really 
+> wanting to get back to the series you've been watching, suggest that they should invest in a POS system, since 
+> they already do that. But no, your client is insistent that you be the one to design it. They say that POS 
+> systems don't do enough, but you think they just don't want to pay for someone else's software. You decide to 
+> take it as a complement either way, and accept the job. 
 
 Your task is to design 3 systems. Each of these will be described in greater detail below. Each of these
 will be represented by a class.

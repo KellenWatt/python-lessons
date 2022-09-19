@@ -5,11 +5,11 @@ you absolutely *need* to know in order to write almost any program. But we won't
 as an operating system... yet. We've still got a few more things to cover that will make your life easier. But 
 enough of this - back to the restaurant!
 
-Our last little venture into automating our client's restaurant was a huge success! People are loving how easy 
-it is to figure out what their tip is, and tip amounts are higher than ever. Now your client wants you to create an 
-inventory management system. They say it'll make everything more efficient, but you think it probably has something 
-to do with the fact their employees have terrible handwriting. Either way, it's a net benefit, so it's time to get 
-to work!
+> Our last little venture into automating our client's restaurant was a huge success! People are loving how easy 
+> it is to figure out what their tip is, and tip amounts are higher than ever. Now your client wants you to create an 
+> inventory management system. They say it'll make everything more efficient, but you think it probably has something 
+> to do with the fact their employees have terrible handwriting. Either way, it's a net benefit, so it's time to get 
+> to work!
 
 Your task is to write a series of functions that will manage the restaurant's inventory. These functions will be:
 - `use_item(inventory, name, count)` - subtract an item from inventory, if it exists and there is enough. 

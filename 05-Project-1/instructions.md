@@ -3,10 +3,10 @@
 Good job making it this far! So far, if you've been doing these lessons in order, we've covered the basics of Python itself, 
 as well as data types, variables, and basic logic. Now's the time to put these into practice. Story time!
 
-Recently, a local restaurant owner reached out to you, since they heard you're an up-and-coming programmer, and they want 
-to try and start automating parts of their business. That said, they haven't worked with you before, so you've agreed to 
-start out with something small: a tip calculator. Your client figures that if people are presented with tip amounts, 
-they'll be more willing to pay decent tips.
+> Recently, a local restaurant owner reached out to you, since they heard you're an up-and-coming programmer, and they want 
+> to try and start automating parts of their business. That said, they haven't worked with you before, so you've agreed to 
+> start out with something small: a tip calculator. Your client figures that if people are presented with tip amounts, 
+> they'll be more willing to pay decent tips.
 
 Your job is to take the cost of the meal, and the number of customers. You'll suggest tip values for 15%, 20%, and 25%, in 
 order. If there are 8 or more customers on a single bill, a 20% tip will be automatically added, with a message saying as much.
