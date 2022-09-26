@@ -23,14 +23,16 @@ You already did most of the heavy lifting for this one in the last project. In f
 exercise in the lesson on classes, you already did most of this one. To reiterate the requirements:
 Make a class `Inventory` with the following methods:
 - `use(name, count)` - subtract an item from inventory, 
-if it exists and there is enough
+if it exists and there is enough.
 - `stock(name, count)` - add an item to inventory, 
 even if it hasn't been ordered before.
-- `amount(name)` - return the current amount of the item
+- `amount(name)` - return the current amount of the item. If the item isn't in inventory, return `None`
 - `is_stocked(name)` - return a boolean indicating it the item is in stock or not.
 - `has_enough(name, count)` - return a boolean indicating if there are at least `count` items in stock.
 - `in_history(name)` - return a boolean indicating if the item has ever been stocked.
 - `current_inventory()` - returns a dictionary of the items currently in stock, including amounts
+- `full_inventory()` - returns a dictionary of all items, both in and out of 
+stock
 
 Additionally, `Inventory` will have a constructor that takes a dictionary representing the current inventory.
 
@@ -53,16 +55,18 @@ The POS system will manage the other two systems, as well as customer
 orders. You will make a class `POS` with the following methods.
 - `take_customer_order(dish)` - if inventory is available, and dish is on menu, subtract the inventory, according 
 to the ingredients, and add the profit to the finance manager. Returns `True` on success, `False` otherwise.
-- `place_restock_order(items)` - add items to inventory, if there is enough money to pay for it, according to the 
+- `place_restock_order(items, catalogue)` - add items to inventory, if there is enough money to pay for it, according to the 
 finance manager. If an item is not in the catalogue, skip over it. Do nothing if there are not enough funds. 
-Prices are gotten from the inventory order form. Returns `False` if the order fails completely, `True` otherwise.
+Prices are gotten from the catalogue(key: ingredient name, value: cost). Returns `False` if the order fails completely, `True` otherwise.
 - `menu()` - returns the restaurant's menu as a dictionary (key: dish name, value: price).
+- `inventory()` - returns the full inventory, including items that 
+are out of stock (key: item name, value: amount).
+- `balance()` - returns the current balance of finance.
 
 You will need a constructor that takes the following items as a parameters: 
 - a non-negative number indicating current restaurant balance
 - a dictionary representing the current inventory (key: item name, value: item amount)
-- a dictionary representing the customer menu (key: dish name, value: class with two fields, `price` and `ingredients`(a list))
-- a dictionary representing the inventory catalogue (key: item name, value: item price)
+- a dictionary representing the customer menu (key: dish name, value: class with two fields, `price` and `ingredients`(key: ingredient name, value: amount required))
 
 You will not need to create the class used for dishes. It will be supplied in testing. You just have 
 to treat it like it already exists.
@@ -86,7 +90,7 @@ file in a subdirectory (folder lower than current one), you can write the name o
 by a dot (.), and the name of the file you want to import. Repeat the folder + . for each level of folder you need. 
 For example, to access `bar.py` in folder `foo`, you'll write `import foo.bar`.
 
-To access things from that file you import, you access it the usual way. However, if you are accessing 
+To access things from that file you import, you access it the usual way. However, if you are accessing a 
 file in a directory, you will need to write the full name, including the folder. So if `bar.py` has a function 
 called `baz`, you would need to write `foo.bar.baz()` even after you import it.
 
