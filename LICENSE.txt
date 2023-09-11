@@ -1,8 +1,8 @@
-Addendum to below license:
+Exception to below license:
 Changes made to the Licensed Material solely for the purposes of 
 solving the exercises contained within are not subject to Section 
-3(a)(1)(B) of the CC-BY-4.0. This addendum must be included with the 
-license, and is subject to the same reproduction requirements.
+3(a)(1)(B) of this Public License. The text of this exception must be 
+included with the Licensed Material.
 
 
 Attribution 4.0 International
