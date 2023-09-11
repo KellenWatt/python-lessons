@@ -1,3 +1,10 @@
+Addendum to below license:
+Changes made to the licensed material solely for the purposes of 
+solving the exercises contained within are not subject to Section 
+3(a)(1)(B) of the CC-BY-4.0. This addendum must be included with the 
+license, and is subject to the same reproduction requirements.
+
+
 Attribution 4.0 International
 
 =======================================================================
