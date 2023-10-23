@@ -11,8 +11,6 @@ high_customer_output = "A 20% tip is automatically added to parties of 8 or more
 grader_root = str(pathlib.Path(__file__).parent.resolve())
 exe_file = grader_root + "/calculator.py"
 
-py_exe = "py3" if platform.system == "Windows" else "python3"
-
 def make_expected_output(expected):
     message = low_customer_output
     if expected["auto_tip"]:
@@ -49,7 +47,7 @@ test_cases = [
 def run_test(test_case, print_success = True):
     test_input = str(case["bill"]) + "\n" + str(case["customers"])
     try:
-        results = subprocess.run([py_exe, exe_file], 
+        results = subprocess.run([sys.executable, exe_file], 
                                 input = test_input,
                                 capture_output = True, 
                                 text = True,
@@ -70,7 +68,7 @@ def run_test(test_case, print_success = True):
             return True
 
     except subprocess.CalledProcessError as e:
-        print("Test case ({}, {}) exitted unexpectedly.".format(case["bill"], case["customers"]))
+        print("Test case ({}, {}) exited unexpectedly.".format(case["bill"], case["customers"]))
         if(e.stderr != None and len(e.stderr) > 0):
             print("Error message: ")
             print(e.stderr)
