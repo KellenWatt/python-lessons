@@ -75,17 +75,13 @@ educational purposes, in order to accommodate all learning levels.
 
 
 ## License
-This repository and all derivative repositories are licensed under the [CC-BY-4.0](./LICENSE.txt) license. This means that you 
-can use and distribute these lessons as you see fit, as long as you disclose the changes you made to them, if any, and keep 
-the license with it.
+This repository and all derivative repositories are licensed under a modified version of the [CC-BY-4.0](./LICENSE.txt) 
+license. This means that you can use and distribute these lessons as you see fit, as long as you disclose the changes you 
+made to them, if any, and keep the license with it. There is an added exception to license, an informal explanation of 
+which follows. (See the license file for the full text).
 
---- NOTICE OF EXCEPTION ---<br>
-Changes made to the licensed material solely for the purposes of solving the exercises contained within 
-are not subject to Section 3(a)(1)(B) of the CC-BY-4.0. This notice must be included with the material, and is 
-subject to the same reproduction requirements as the license.<br>
---- END OF NOTICE ---
-
-In less formal terms, if you publish the lessons with solutions to the exercises on, for example, Github, you are not 
+#### Exception
+If you publish the lessons with solutions to the exercises on, for example, Github, you are not 
 required to indicate that you're including the solutions - other changes must still be declared. This is intended 
 primarily so that students that don't have any licensing experience can publish their solutions without violating copyright.
 
