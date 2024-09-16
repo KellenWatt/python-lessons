@@ -82,12 +82,12 @@ When working with multiple files, as you will be in this project, you need some 
 to be accessible from the others. This is where you can use *relative imports*. Normally, when you import 
 something, you're importing a whole module that Python finds by being clever (i.e. we won't go into how this 
 works). However, to import a file nearby, you can treat it the same way, as long as it doesn't have the same 
-name as core library.
+name as a core library.
 
 To access a file in the same directory (folder), all you need to do is write its name, minus the `.py` extension.
 So to import `foo.py` in the same folder as what you're writing, you can just write `import foo`. To import a 
 file in a subdirectory (folder lower than current one), you can write the name of the directory it's in, followed 
-by a dot (.), and the name of the file you want to import. Repeat the folder + . for each level of folder you need. 
+by a dot (.), and the name of the file you want to import. Repeat the folder and "." for each level of folder you need. 
 For example, to access `bar.py` in folder `foo`, you'll write `import foo.bar`.
 
 To access things from that file you import, you access it the usual way. However, if you are accessing a 
