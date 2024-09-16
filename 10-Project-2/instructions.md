@@ -14,11 +14,11 @@ enough of this - back to the restaurant!
 Your task is to write a series of functions that will manage the restaurant's inventory. These functions will be:
 - `use_item(inventory, name, count)` - subtract an item from inventory, if it exists and there is enough. 
 - `stock_item(inventory, name, count)` - add an item to inventory, even if it hasn't been ordered before. 
-- `item_amount(inventory, name)` - return the current amount of the item
+- `item_amount(inventory, name)` - return the current amount of the item. Returns `None` if the item has never been in inventory.
 - `is_stocked(inventory, name)` - return a boolean indicating if the item is in stock or not
 - `has_enough(inventory, name, count)` - return a boolean indicating if there are at least `count` of the item.
 - `in_history(inventory, name)` - return a boolean indicating if the item has ever been stocked
-- `current_inventory(inventory)` - returns a list of the items that are currently in stock, regardless of amount
+- `current_inventory(inventory)` - returns a list of the items that are currently in stock, meaning there is a non-zero amount.
 - `report(inventory)` - returns a string that lists the complete inventory, including amounts, with each item on its own line.
 
 In each case, `inventory` is a dictionary that contains the restaurant's inventory. You don't need to worry about 
@@ -30,7 +30,9 @@ but don't assume the input is automatically valid for the given inventory.
 You'll be modifying the `manager.py` file. Don't mess with any of the other files, since they're how they 
 your code will be graded.
 
-For any functions that modify the inventory, you will modify `inventory` directly. Don't worry about returning a new 
+For any functions that modify the inventory, you will modify `inventory` directly. This uses the technique 
+from the optional section in Lesson 9, but if you haven't read that or don't understand it, just do what you 
+think you should and you'll probably be right. Don't worry about returning a new 
 dictionary each time. Refer to the examples for more details about how each function more specifically behaves. In 
 addition to the required functions, you're free to write any functions that you think will help you finish the project.
 Only the required functions listed above will be tested.
@@ -39,11 +41,11 @@ Only the required functions listed above will be tested.
 ### New Concepts
 #### Escape Sequences
 
-Remember the whole "there's no magic in programming" thing. That rule holds true for text. This means that since strings 
+Remember the whole "there's no magic in programming" thing? That rule holds true for text. This means that since strings 
 are just a bunch of characters, and strings can represent all text, then all text must be representable as a bunch of characters, 
 including whitespace. If you think about it, something has to tell the computer to tab, or to go to 
-the next line. We can't do that with any single key on the keyboard, since that will actually insert the thing 
-we're trying to represent, and display and representation are often two different things when programming. To print these 
+the next line. Unfortunately, we can't do that with any single key on the keyboard, since that will actually insert the thing 
+we're trying to represent. Display and representation are often two different things when programming. To print these 
 *special characters*, we have to use something called an *escape sequence*. Despite its fancy name, it's pretty simple. 
 All you do is, inside a string, put a backslash ("\\"), followed by a character indicating what special character you want to insert. 
 There are several sequences, some of them existing purely for historical reasons, but the most common ones you'll use are as follows.
@@ -58,7 +60,7 @@ These are the rules modern computers use to encode human-readable text in a way 
 
 ## Examples
 Each of these examples will be based on the following inventory dictionary. This won't necessarily be the dictionary 
-actually used in testing. Each of these examples is cumulative, so effects one will affect ones after.
+actually used in testing. Each of these examples is cumulative, so effects from one will affect ones after.
 ```python
 inventory = {
     "banana": 50,
